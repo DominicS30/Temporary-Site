@@ -3,7 +3,7 @@
 // Wait for DOM to be fully loaded
 document.addEventListener('DOMContentLoaded', function() {
     initializeAnimations();
-    setupMouseTracking();
+    // setupMouseTracking(); // Removed to stop background movement
     setupScrollAnimations();
     setupInteractiveElements();
     startTypingAnimation();
